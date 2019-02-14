@@ -123,13 +123,11 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/smartisan/icesky/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-    vendor/smartisan/icesky/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/lib64/libaudioparameter.so:system/lib64/libaudioparameter.so \
     vendor/smartisan/icesky/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
-    vendor/smartisan/icesky/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config_g:system/vendor/etc/diracmobile.config_g \
