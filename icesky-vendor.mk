@@ -767,6 +767,4 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     fastdormancy \
     shutdownlistener \
-    qcrilmsgtunnel \
-    ims \
-    imssettings
+    qcrilmsgtunnel
