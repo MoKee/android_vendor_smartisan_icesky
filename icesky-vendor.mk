@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/smartisan/icesky/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
+    vendor/smartisan/icesky/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_apsta.bin:system/vendor/firmware/bcm43455_apsta.bin \
     vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_bt.hcd:system/vendor/firmware/bcm43455_bt.hcd \
     vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_mfg.bin:system/vendor/firmware/bcm43455_mfg.bin \
@@ -101,7 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO800_2560X1440.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO800_2560X1440.ncf \
     vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO800_2592X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO800_2592X1944.ncf \
     vendor/smartisan/icesky/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/smartisan/icesky/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/smartisan/icesky/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp.config:system/etc/tfa98xx/nxp.config \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp.patch:system/etc/tfa98xx/nxp.patch \
@@ -121,13 +121,13 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/lib/libaudioparameter.so:system/lib/libaudioparameter.so \
     vendor/smartisan/icesky/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/smartisan/icesky/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libtfa98xx.so:system/vendor/lib/libtfa98xx.so \
     vendor/smartisan/icesky/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/lib64/libaudioparameter.so:system/lib64/libaudioparameter.so \
-    vendor/smartisan/icesky/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/libtfa98xx.so:system/vendor/lib64/libtfa98xx.so \
     vendor/smartisan/icesky/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
