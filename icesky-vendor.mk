@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/smartisan/icesky/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/smartisan/icesky/proprietary/bin/sharp_fw_download:system/bin/sharp_fw_download \
-    vendor/smartisan/icesky/proprietary/bin/tinymix:system/bin/tinymix \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -114,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.eq:system/etc/tfa98xx/nxp_voice.eq \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.preset:system/etc/tfa98xx/nxp_voice.preset \
     vendor/smartisan/icesky/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
-    vendor/smartisan/icesky/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/camera.vendor.msm8992.so:system/vendor/lib/hw/camera.vendor.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libarcsoft_panorama.so:system/vendor/lib/libarcsoft_panorama.so \
@@ -122,12 +120,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libtfa98xx.so:system/vendor/lib/libtfa98xx.so \
-    vendor/smartisan/icesky/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/smartisan/icesky/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/lib64/libaudioparameter.so:system/lib64/libaudioparameter.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libtfa98xx.so:system/vendor/lib64/libtfa98xx.so \
-    vendor/smartisan/icesky/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config_g:system/vendor/etc/diracmobile.config_g \
     vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn \
