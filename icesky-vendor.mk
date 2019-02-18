@@ -40,66 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO100_3096X3096.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO100_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO100_4096X2304.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO100_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO100_4160X3120.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO100_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO1600_3096X3096.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO1600_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO1600_4096X2304.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO1600_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO1600_4160X3120.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO1600_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO200_3096X3096.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO200_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO200_4096X2304.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO200_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO200_4160X3120.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO200_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO400_3096X3096.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO400_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO400_4096X2304.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO400_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO400_4160X3120.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO400_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO800_3096X3096.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO800_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO800_4096X2304.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO800_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO800_4160X3120.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO800_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO100_1944X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO100_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO100_2560X1440.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO100_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO100_2592X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO100_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO1600_1944X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO1600_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO1600_2560X1440.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO1600_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO1600_2592X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO1600_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO200_1944X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO200_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO200_2560X1440.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO200_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO200_2592X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO200_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO400_1944X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO400_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO400_2560X1440.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO400_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO400_2592X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO400_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO800_1944X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO800_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO800_2560X1440.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO800_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_ov5648/ISO800_2592X1944.ncf:system/etc/sensor_denoise_table/liteon_ov5648/ISO800_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO100_3096X3096.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO100_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO100_4096X2304.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO100_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO100_4160X3120.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO100_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO1600_3096X3096.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO1600_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO1600_4096X2304.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO1600_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO1600_4160X3120.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO1600_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO200_3096X3096.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO200_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO200_4096X2304.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO200_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO200_4160X3120.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO200_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO400_3096X3096.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO400_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO400_4096X2304.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO400_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO400_4160X3120.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO400_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO800_3096X3096.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO800_3096X3096.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO800_4096X2304.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO800_4096X2304.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_imx214/ISO800_4160X3120.ncf:system/etc/sensor_denoise_table/sharp_imx214/ISO800_4160X3120.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO100_1944X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO100_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO100_2560X1440.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO100_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO100_2592X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO100_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO1600_1944X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO1600_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO1600_2560X1440.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO1600_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO1600_2592X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO1600_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO200_1944X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO200_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO200_2560X1440.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO200_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO200_2592X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO200_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO400_1944X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO400_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO400_2560X1440.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO400_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO400_2592X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO400_2592X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO800_1944X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO800_1944X1944.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO800_2560X1440.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO800_2560X1440.ncf \
-    vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/sharp_ov5648/ISO800_2592X1944.ncf:system/etc/sensor_denoise_table/sharp_ov5648/ISO800_2592X1944.ncf \
     vendor/smartisan/icesky/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/smartisan/icesky/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
@@ -115,9 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.preset:system/etc/tfa98xx/nxp_voice.preset \
     vendor/smartisan/icesky/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/audio.primary.msm8992.so:system/vendor/lib/hw/audio.primary.msm8992.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/hw/camera.vendor.msm8992.so:system/vendor/lib/hw/camera.vendor.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libarcsoft_panorama.so:system/vendor/lib/libarcsoft_panorama.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libaudioparameter.so:system/vendor/lib/libaudioparameter.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libaudioresampler.so:system/vendor/lib/libaudioresampler.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
@@ -132,14 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libtinycompress.so:system/vendor/lib64/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config_g:system/vendor/etc/diracmobile.config_g \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn:system/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_4transmeshrnorm_leafnum1.trn9614.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_4transmeshrnorm_leafnum1.trn9614.trn \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn \
-    vendor/smartisan/icesky/proprietary/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin:system/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin \
     vendor/smartisan/icesky/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/smartisan/icesky/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0039_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0039_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/smartisan/icesky/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Generic_I2C_NCD_Unsigned_configdata.ncd \
