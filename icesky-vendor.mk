@@ -598,6 +598,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
