@@ -329,10 +329,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/smartisan/icesky/proprietary/vendor/bin/ftmdaemon:system/vendor/bin/ftmdaemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
-    vendor/smartisan/icesky/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
-    vendor/smartisan/icesky/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
-    vendor/smartisan/icesky/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
-    vendor/smartisan/icesky/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/smartisan/icesky/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/mmbn-daemon:system/vendor/bin/mmbn-daemon \
@@ -419,25 +415,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/vulkan.msm8994.so:system/vendor/lib/hw/vulkan.msm8994.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
@@ -477,8 +454,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -528,7 +503,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
@@ -545,7 +519,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
@@ -564,25 +537,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/vulkan.msm8994.so:system/vendor/lib64/hw/vulkan.msm8994.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
@@ -623,8 +577,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
@@ -665,7 +617,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -684,7 +635,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
