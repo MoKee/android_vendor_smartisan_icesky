@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/smartisan/icesky/proprietary/bin/sensors.qcom:$(TARGET_COPY_OUT_SYSTEM)/bin/sensors.qcom \
     vendor/smartisan/icesky/proprietary/bin/sharp_fw_download:$(TARGET_COPY_OUT_SYSTEM)/bin/sharp_fw_download \
-    vendor/smartisan/icesky/proprietary/bin/tinymix:$(TARGET_COPY_OUT_SYSTEM)/bin/tinymix \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -57,20 +56,14 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa98xx/nxp_voice.eq \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa98xx/nxp_voice.preset \
     vendor/smartisan/icesky/proprietary/etc/thermal-engine.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine.conf \
-    vendor/smartisan/icesky/proprietary/vendor/lib/hw/audio.primary.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/keystore.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libaudioparameter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparameter.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libaudioresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioresampler.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa98xx.so \
-    vendor/smartisan/icesky/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/hw/audio.primary.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/keystore.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libaudioparameter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparameter.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa98xx.so \
-    vendor/smartisan/icesky/proprietary/lib64/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtinyalsa.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config_g:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config_g \
     vendor/smartisan/icesky/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd \
